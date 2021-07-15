@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+body{
+   font-family: 'Heebo', sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.arajin{
+   background-color: rgb(17, 13, 54);
+}
+.menu{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding-left: 45px;
+   padding-top: 25px;
+   padding-right: 25px;
+}
+.text{
+   width: 100%;
+   height: 350px;
+   /*border: #000 2px solid;*/
+   margin-top: 25px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   padding-bottom: 55px;
+}
+.nav ul{
+   list-style-type: none;
+   display: flex;
+   }
+   .nav ul li{
+   margin-left: 10px;
+   }
+   .nav ul li a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   font-size: 14px;
+   padding: 10px;
+   transition: color .25s ease;
+   }
+   .nav ul li a:hover{
+   color: #005450;
+   }
+.hello{
+   color:rgb(49, 65, 214);
+}
+.words{
+   margin-top: 15px;
+   color: white;
+   font-size: 20px;
+   text-align: center;
+}
+.portfolio{
+   color: white;
+   font-size: 20px;
+}
+.w{
+   width: 450px; 
+}
+.fas fa-angle-down{
+   color: rgba(255, 255, 255, 0.575);
+}
+img{
+   width: 400px;
+   height: 290px;
+}
+.erkrord{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+}
+.image{
+   width: 200px;
+}
+.image1{
+   width: 335px;
+}
